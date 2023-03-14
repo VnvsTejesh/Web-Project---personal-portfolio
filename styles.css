@@ -100,3 +100,59 @@
     border-bottom: none;
   }
 }
+
+/* ****************************about me************************* */
+.about {
+  height: auto;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding-top: 60px;
+  padding-bottom: 160px;
+}
+.about_container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.grid_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.text_part > * {
+  margin-bottom: 1.1rem;
+  color: #000;
+}
+.img_part img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.about_heading {
+  color: #111;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 30px;
+}
+.about_heading span {
+  font-weight: 500;
+  font-size: 45px;
+  color: #e43f5a;
+}
+.about_para {
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .grid_section {
+    grid-template-columns: 1fr;
+  }
+  .about {
+    padding-top: 40px;
+    padding-bottom: 100px;
+  }
+}
