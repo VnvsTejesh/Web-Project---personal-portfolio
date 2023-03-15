@@ -234,4 +234,54 @@
           height:auto;
       }
     }
-  
+  /* ************************projects**************** */
+
+  .project_page{
+    display: grid;
+    width: 100%;
+    place-items: center;
+  }
+  .projects{
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px 30px;
+  }
+  .proj1_img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .left_sector{
+    overflow: hidden;
+  }
+  .right_sector{
+    display: flex;
+    align-items: center;
+  }
+  .description{
+    padding-left: 20px;
+  }
+  .project_para{
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+  .code_btn{
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: orange;
+    color: #000;
+    border-radius: 60px 10px;
+  }
+  @media (max-width: 991px){
+    .description{
+      padding-left: 0px;
+    }
+  }
+  @media (max-width: 991px){
+    .projects{
+      width: 90%;
+      grid-template-columns: 1fr;
+    }
+  }
