@@ -156,3 +156,82 @@
     padding-bottom: 100px;
   }
 }
+/* *************************my experience*********************** */
+
+.work{
+    max-width: 1160px;
+    width: 100%;
+  }
+  .sec_title{
+      text-align: center;
+      font-size: 38px;
+      color: #e44d68;
+  }
+  .background1{
+      background: linear-gradient(180deg,#21c8f6,#637bff);
+  }
+  .background2{
+      background: linear-gradient(180deg ,#6edcc4,#1aab8b);
+  }
+  .work_container{
+      display: flex;
+      justify-content: center;
+      height: auto;
+      align-items: center;
+  }
+  
+  .card {
+      background-color:var(--white-text);
+      border-radius: 1rem;
+      box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+      display: flex;	
+      margin: 1.5rem;
+      overflow: hidden;
+      width: 30rem;
+      height: 19rem;
+  }
+  
+  .jobrole{
+      opacity: 0.6;	
+      letter-spacing: .1rem;
+      text-transform: uppercase;
+  }
+  
+  .comp{
+      letter-spacing: .1rem;
+      margin: 1rem 0;
+      color: var(black-text);
+  }
+  
+  .left-column {	
+      color: var(--white-text);
+      padding: 2rem;
+      max-width: 10rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .right-column {
+      padding: 30px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      
+  }
+  .role_info{	
+      font-size: .9rem;
+      color: var(--black-text)
+  }
+  
+  @media (max-width: 1030px) {
+      .work_container{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height:auto;
+      }
+    }
+  
