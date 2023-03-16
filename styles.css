@@ -285,3 +285,44 @@
       grid-template-columns: 1fr;
     }
   }
+
+  /* ************************contact form*************** */
+
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    border: none;
+    border-radius: 10px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background: rgba(0, 0, 0, .2);
+    padding: 20px 40px;
+    outline: none;
+    color: #000;
+  }
+  .label_field, .label_text{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: none;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
