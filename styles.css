@@ -128,15 +128,11 @@ html{
     grid-template-columns: 1fr;
   }
   .about{
-    padding-top: 40px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
 }
-@media (max-width: 414px) {
-  .about{
-    padding-top: 100px;
-  }
-}
+
 /* ================work exp======== */
 .work{
   width: 100%;
@@ -148,7 +144,7 @@ html{
     color: #e44d68;
 }
 .work_card {
-	background-color:var(--white-text);
+	background-color:#fff;
 	border-radius: 1rem;
 	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
 	display: flex;	
@@ -178,11 +174,11 @@ html{
 .comp{
 	letter-spacing: .1rem;
 	margin: 1rem 0;
-	color: var(black-text);
+	color: #000;
 }
 
 .left-column {	
-	color: var(--white-text);
+	color: #fff;
 	padding: 2rem;
 	max-width: 10rem;
 	display: flex;
@@ -201,7 +197,7 @@ html{
 }
 .role_info{	
 	font-size: .9rem;
-	color: var(--black-text)
+	color: #000;
 }
 
 @media (max-width: 1030px) {
