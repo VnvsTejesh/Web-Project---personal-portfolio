@@ -13,15 +13,22 @@
     <title>Document</title>
   </head>
   <body>
+    <main>
     <div class="header">
-      <i id="btn-menu" class="fa-solid fa-bars"></i>
-      <div class="contanier">
-        <img class="logo" src="./images/logo.png" width="150px" />
-        <div id="menu" class="nav-links">
-          <a href="#">about</a>
-          <a href="#">My Experience</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+      <i id="btn_menu" class="fa-solid fa-bars"></i>
+      <div class="header_contanier">
+        <img
+          class="logo"
+          src="./assets/logo.webp"
+          alt="logo of portfolio"
+          width="150"
+        />
+        <div id="menu" class="nav_links">
+          <a class="nav_points" href="#about">about</a>
+          <a class="nav_points" href="#work">Experience</a>
+          <a class="nav_points" href="#project">Projects</a>
+          <a class="nav_points" target="_blank" href="https://drive.google.com/file/d/1Ahkk_j36z2TQ9EFDoRe1-Xk_Axu-KPhN/view?usp=share_link" download>Resume</a>
+          <a class="nav_points" href="#contact">Contact</a>
         </div>
       </div>
     </div>
@@ -30,8 +37,8 @@
       <div class="about_container">
         <div class="grid_section">
           <div class="text_part">
-            <h2 class="about_heading"><span>M</span>y <span>S</span>tory</h2>
-            <h2>I'm Tejesh</h2>
+            <h1 class="about_heading"><span>A</span>bout <span>M</span>e</h1>
+            <h2 class="intro">Hello!! I'm Tejesh</h2>
             <p class="about_para">
               I am a Master's student at Portland State University, with prior
               experience in the tech industry in India. I have worked as an
@@ -45,18 +52,18 @@
             </p>
           </div>
           <div class="img_part">
-            <img src="./images/tejesh.jpg" width="300" />
+            <img class="my_image" alt="photo of tejesh" src="./assets/tejesh.webp" width="300" />
           </div>
         </div>
       </div>
     </section>
 
-    <sction class="work">
+    <section id="work" class="work">
       <h2 class="sec_title">Previous Experience</h2>
       <div class="work_container">
-        <div class="card">
+        <div class="work_card">
           <div class="left-column background1">
-            <h6 class="jobrole">Technology Operations Analyst</h6>
+            <h3 class="jobrole">Technology Operations Analyst</h3>
             <h2 class="comp">Wells Fargo</h2>
           </div>
           <div class="right-column">
@@ -70,9 +77,9 @@
             </p>
           </div>
         </div>
-        <div class="card">
+        <div class="work_card">
           <div class="left-column background2">
-            <h6 class="jobrole">Associate Engineer</h6>
+            <h3 class="jobrole">Associate Engineer</h3>
             <h2 class="comp">Atos</h2>
           </div>
 
@@ -89,13 +96,17 @@
           </div>
         </div>
       </div>
-    </sction>
+    </section>
 
-    <section class="project_page">
+    <section id="project" class="project_page">
       <h2 class="sec_title">Projects</h2>
       <div class="projects">
         <div class="left_sector">
-          <img class="proj1_img" src="./images/project1.jpeg" alt="photo of project 1" />
+          <img
+            class="proj1_img"
+            src="./assets/project1.webp"
+            alt="photo of project 1"
+          />
         </div>
         <div class="right_sector">
           <div class="description">
@@ -140,7 +151,11 @@
           </div>
         </div>
         <div class="left_sector">
-          <img class="proj1_img" src="./images/project2.png" alt="photo of project 1" />
+          <img
+            class="proj1_img"
+            src="./assets/project2.webp"
+            alt="photo of project 2"
+          />
         </div>
       </div>
     </section>
@@ -157,11 +172,12 @@
           <input id="email" type="email" class="contact-form-text" />
         </div>
         <div class="text_sector">
-          <label type="text" class="label_text" for="text">Message</label>
+          <label class="label_text" for="text">Message</label>
           <textarea id="text" class="contact-form-text"></textarea>
         </div>
         <input type="submit" class="contact-form-btn" value="Submit" />
       </form>
     </section>
+  </main>
   </body>
 </html>
