@@ -6,7 +6,6 @@ btnMenu.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
 
-
 // ============================================
 
 const form = document.getElementsByClassName("contact-form")[0];
