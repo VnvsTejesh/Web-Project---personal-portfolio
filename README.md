@@ -3,11 +3,11 @@
 
 This is a website that showcases my personal portfolio, featuring information about my professional background, completed projects, and a contact form. The website is built using HTML, CSS, and JavaScript, and includes several pages for easy navigation. Visitors can see the below following:
 
-Navigation Bar
-About Me
-Previous Experience
-Projects
-Contact Form
+•	Navigation Bar
+•	About Me
+•	Previous Experience
+•	Projects
+•	Contact Form
 
 ##How to run the code
 
